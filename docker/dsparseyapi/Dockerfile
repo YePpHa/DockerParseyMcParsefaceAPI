@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
         zip \
         zlib1g-dev
 
-RUN  wget https://gist.githubusercontent.com/johndpope/fc1c2327a4ae255d9c44dda9b67b5288/raw/406369ecc157d60f7a9bac2a0d5be3da9aa62e56/parseyapi.sh \
+RUN  wget https://gist.githubusercontent.com/YePpHa/39c3667b57e1ab60d55fc12692726e92/raw/23a45e789e1ad00efd925add26f92e2d762d995f/parseyapi.sh \
     && chmod +x parseyapi.sh \
     && ./parseyapi.sh 
     
